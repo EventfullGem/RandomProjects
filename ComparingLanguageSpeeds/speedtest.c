@@ -17,4 +17,4 @@ int main() {
     return 0;
 }
 
-// Time taken: 0.097000 seconds
+// Time taken: I dont know a good benchmark everything is so confusing
