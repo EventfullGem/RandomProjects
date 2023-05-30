@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
+
 int main() {
     clock_t start_time = clock();
 
@@ -18,3 +19,4 @@ int main() {
 }
 
 // Time taken: I dont know a good benchmark everything is so confusing
+

@@ -1,0 +1,77 @@
+Lbl 1
+Pause 
+getTime→l1
+getDate→l2
+l2(1)→Y
+l2(2)→M
+l2(3)→D
+dayOfWk(Y,M,D)→A
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+If A=1
+Then
+Disp "SUNDAY"
+Goto 2
+Else
+If A=2
+Then
+Disp "MONDAY"
+Goto 2
+Else
+If A=3
+Then
+Disp "TUESDAY"
+Goto 2
+Else
+If A=4
+Then
+Disp "WENDSDAY"
+Goto 2
+Else
+If A=5
+Then
+Disp "THURSDAY"
+Goto 2
+Else
+If A=6
+Then
+Disp "FRIDAY"
+Goto 2
+Else
+If A=7
+Then
+Disp "SATURDAY"
+Lbl 2
+l2(1)→l3(1)
+l2(2)→l2(1)
+l2(3)→l2(2)
+l3(1)→l2(3)
+Disp l2
+If l1(1)>12
+Then
+l1(1)–12→l1(1)
+1→B
+Goto 3
+Else
+0→B
+Lbl 3
+Disp l1
+If B=1
+Then
+Disp "PM"
+Goto 4
+Else
+Disp "AM"
+Lbl 4
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Goto 1
