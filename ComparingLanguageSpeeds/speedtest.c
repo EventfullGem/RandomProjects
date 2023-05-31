@@ -19,4 +19,4 @@ int main() {
 }
 
 // Time taken: I dont know a good benchmark everything is so confusing
-
+//Compilers are weird
