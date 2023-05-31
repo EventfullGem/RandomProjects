@@ -20,3 +20,5 @@ else:
 
 time.sleep(.5)
 equation = input("Equation: ")
+
+#Unfinished, keep adding equation and figure out how to get the input of the equation to work
