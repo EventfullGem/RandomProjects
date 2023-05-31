@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ComparingLanguageSpeeds"
+    "\\ComparingLanguageSpeeds",
+    "\\Ti84CalculatorStuff"
   ],
-  "SelectedNode": "\\ComparingLanguageSpeeds\\speedtest.py",
+  "SelectedNode": "\\Ti84CalculatorStuff\\converter.py",
   "PreviewInSolutionExplorer": false
 }

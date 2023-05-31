@@ -1,5 +1,7 @@
 
 #Only works on Linux I think, I still need to test this
+#As far as I know, does not work
+#If you somehow see this and want to fork it, please try and make it work :)
 
 
 
