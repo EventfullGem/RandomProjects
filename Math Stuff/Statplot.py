@@ -13,7 +13,7 @@ y1 = vs.y
 y2 = vs.y2
 
 # Plots the graph
-plt.plot(x1, y1, label = "Line 1")
+plt.plot(x1, y1, label="Line 1")
 # Uses the x2[:10] to force X to have only first 10 values, because x2 has 20 values and y2 has 10
 plt.plot(x2[:10], y2, label="Line 2")
 

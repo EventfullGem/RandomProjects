@@ -1,6 +1,6 @@
 import sys
 import time
-#add two variables named Upper_Limit and Lower_limit
+# add two variables named Upper_Limit and Lower_limit
 
 Upper_Limit = int(input("Upper limit:"))
 Lower_Limit = int(input("Lower limit x = "))
@@ -21,4 +21,4 @@ else:
 time.sleep(.5)
 equation = input("Equation: ")
 
-#Unfinished, keep adding equation and figure out how to get the input of the equation to work
+# Unfinished, keep adding equation and figure out how to get the input of the equation to work

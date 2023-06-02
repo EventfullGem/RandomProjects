@@ -9,9 +9,10 @@ import varstorage as vs
 x1 = vs.x
 y1 = vs.y
 
-# Plots the points and colors them with a dashed style. I dont know why the foramting is this way it might work if you change it but it might not
-plt.plot(x1, y1, color='gray', linestyle='dashed', linewidth = 3,
-         marker='o', markerfacecolor='blue', markersize=6, label = "Line 1")
+# Plots the points and colors them with a dashed style. I don't know why the formatting is this way
+# it might work if you change it, but it might not
+plt.plot(x1, y1, color='gray', linestyle='dashed', linewidth=3,
+         marker='o', markerfacecolor='blue', markersize=6, label="Line 1")
 
 # Naming the X axis
 plt.xlabel('X Axis')
