@@ -1,15 +1,15 @@
-#Dunno what this does but it works
+# Don't know what this does but it works
 
 # importing the required modules
 import matplotlib.pyplot as plt
 import numpy as np
-import varstorage as vs
+# import varstorage as vs
 
 # setting the x - coordinates (starting value, end value, step size)
 # 2*(np.pi) is 2pi
 # Can also use a normal array
 # Ex: x = vs.x
-x = np.arange(0, 500000000, 0.1)
+x = np.arange(0, 500, 0.1)
 # setting the corresponding y - coordinates
 y = np.log(np.square(x))
 
