@@ -9,9 +9,9 @@ import varstorage as vs
 # 2*(np.pi) is 2pi
 # Can also use a normal array
 # Ex: x = vs.x
-x = np.arange(0, 2*(np.pi), 0.1)
+x = np.arange(0, 500000000, 0.1)
 # setting the corresponding y - coordinates
-y = np.cos(x)
+y = np.log(np.square(x))
 
 # plotting the points
 plt.plot(x, y)
