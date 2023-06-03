@@ -2,11 +2,11 @@ import string
 import random
 
 # Define the file path and size in bytes
-file_path = "output.txt"
-file_size = 1 * 1024 * 1024  # 1 MB
+file_path = "output100mbjustletters.txt"
+file_size = 100 * 1024 * 1024  # 100 MB
 
 # Define the characters to use in the text
-characters = string.ascii_letters + string.digits
+characters = string.ascii_letters
 
 # Open the file in append mode
 with open(file_path, "a") as f:
