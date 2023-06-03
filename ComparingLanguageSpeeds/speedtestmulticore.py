@@ -1,4 +1,7 @@
 import multiprocessing
+import time
+
+start_time = time.time()
 
 def worker():
     # worker function
@@ -15,3 +18,8 @@ if __name__ == '__main__':
         p = multiprocessing.Process(target=worker)
         jobs.append(p)
         p.start()
+
+
+end_time = time.time()
+
+print("Time taken:", end_time - start_time, "seconds")
