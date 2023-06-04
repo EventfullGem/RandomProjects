@@ -32,3 +32,8 @@ if __name__ == '__main__':
 # My Server with Xeon E5-645 v5 @ 2.40GHz (Ubuntu 22.04): 0.22396469116210938 seconds
 
 # Conclusion: Must be something with Windows that makes it slower.
+
+# Second test: My computer with IntelliJ Ultimate: 3.63745379447937 seconds
+# Second test: My computer but with WSL2 (Ubuntu 22.04): 0.1212620735168457 seconds
+
+# Second conclusion: Ubuntu 22.04 is better at handling multi core code than Windows 10 home
