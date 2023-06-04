@@ -25,3 +25,8 @@ if __name__ == '__main__':
     end_time = time.time()
 # Calculate the time taken and outputs to console window
     print("Time taken:", end_time - start_time, "seconds")
+
+# End Data:
+# Raspberry Pi 4B 8GB: 0.000000000
+# My computer (i7-10750H @ 2.60GHz): 0.000000000
+# My Server (Xeon E5-645 v5 @ 2.40GHz): 0.000000000
