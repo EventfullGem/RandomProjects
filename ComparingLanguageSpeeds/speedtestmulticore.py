@@ -27,6 +27,8 @@ if __name__ == '__main__':
     print("Time taken:", end_time - start_time, "seconds")
 
 # End Data:
-# Raspberry Pi 4B 8GB: 0.000000000
-# My computer (i7-10750H @ 2.60GHz): 0.000000000
-# My Server (Xeon E5-645 v5 @ 2.40GHz): 0.000000000
+# Raspberry Pi 4B 8GB (Ubuntu 22.04): 1.0884602069854736 seconds
+# My computer with i7-10750H @ 2.60GHz (Windows 10 Home): 12.872420072555542 seconds
+# My Server with Xeon E5-645 v5 @ 2.40GHz (Ubuntu 22.04): 0.22396469116210938 seconds
+
+# Conclusion: Must be something with Windows that makes it slower.
