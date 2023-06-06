@@ -2,7 +2,7 @@ import time
 
 start_time = time.time()
 
-for i in range(1000000000):
+for i in range(1000000):
     print(i)
 
 end_time = time.time()
@@ -17,3 +17,5 @@ print("Time taken:", end_time - start_time, "seconds")
 
 
 # My server can count to one billion in about ... didnt finish, I'm trying to test multi core support for python now
+
+# Testing in WSL... 11.13 seconds
