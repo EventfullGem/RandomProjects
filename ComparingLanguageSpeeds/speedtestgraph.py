@@ -6,7 +6,7 @@ from matplotlib.lines import Line2D
 left = [1, 2, 3, 4, 5]
 height = [1, 12.8, 3.67, .12, .22]
 
-tick_label = ['Linux Kernel', 'Windows CMD', 'IntelliJ IDEA', 'WSL', 'Linux Kernel']
+tick_label = ['Linux Terminal', 'Windows CMD', 'IntelliJ IDEA', 'WSL', 'Linux Terminal']
 
 # plots the bar chart
 plt.bar(left, height, tick_label=tick_label,
