@@ -9,9 +9,10 @@ import numpy as np
 # 2*(np.pi) is 2pi
 # Can also use a normal array
 # Ex: x = vs.x
-x = np.arange(0, 500, 0.1)
+x = np.arange(0, 40, 0.01)
 # setting the corresponding y - coordinates
-y = np.log(np.square(x))
+y = np.sin(x) 
+# ex:  np.log(np.square(x))
 
 # plotting the points
 plt.plot(x, y)
