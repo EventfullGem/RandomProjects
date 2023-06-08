@@ -9,7 +9,7 @@ import numpy as np
 # 2*(np.pi) is 2pi
 # Can also use a normal array
 # Ex: x = vs.x
-x = np.arange(0, 40, 0.01)
+x = np.arange(0, 40, 1)
 # setting the corresponding y - coordinates
 y = np.sin(x) 
 # ex:  np.log(np.square(x))
