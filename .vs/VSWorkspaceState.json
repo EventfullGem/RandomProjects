@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ComparingLanguageSpeeds",
-    "\\Ti84CalculatorStuff"
+    "\\Math Stuff",
+    "\\Math Stuff\\animatedplot",
+    "\\Math Stuff\\Numpy Tests",
+    "\\Snippets"
   ],
-  "SelectedNode": "\\Ti84CalculatorStuff\\converter.py",
+  "SelectedNode": "\\Math Stuff\\animatedplot\\animatedplot.py",
   "PreviewInSolutionExplorer": false
 }
