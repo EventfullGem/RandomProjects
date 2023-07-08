@@ -1,5 +1,5 @@
+""" import time
 import sys
-import time
 # add two variables named Upper_Limit and Lower_limit
 
 Upper_Limit = int(input("Upper limit:"))
@@ -22,3 +22,9 @@ time.sleep(.5)
 equation = input("Equation: ")
 
 # Unfinished, keep adding equation and figure out how to get the input of the equation to work
+"""
+# Its a lot easier than I thought
+# Whole numbers only
+var n = 100 // upper bound
+var a = 1 // lower bound
+var sum = (n * (n + a)) / 2 // sum of all numbers from 1 to n
