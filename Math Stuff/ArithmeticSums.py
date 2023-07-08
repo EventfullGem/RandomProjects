@@ -25,6 +25,11 @@ equation = input("Equation: ")
 """
 # Its a lot easier than I thought
 # Whole numbers only
-var n = 100 // upper bound
-var a = 1 // lower bound
-var sum = (n * (n + a)) / 2 // sum of all numbers from 1 to n
+n = 100 # upper bound
+a = 1 # lower bound
+sume = (n * (n + a)) / 2 # sum of all numbers from 1 to n
+print(sume)
+# decimals
+w = sum([k for k in range(100)])
+# Out: 5050
+print(w)
